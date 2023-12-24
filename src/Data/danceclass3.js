@@ -5,11 +5,11 @@ const danceClasses3 = [
     
       {
         id: 3,
-        className: 'Contemporary Dance',
-        description: 'Learn the art of ballroom dancing with our experienced instructors.',
+        className: 'Salsa Dance',
+        description: 'Learn salsa dancing with our experienced instructors.',
         startDate: '2023-01-15',
         duration: '1 hour',
-        price: 20,
+        price: 100,
 img:img1,
       },
  

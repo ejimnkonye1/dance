@@ -10,7 +10,7 @@ const Testimonial = () => {
       id: 1,
       name: 'Allen King',
       rating: 5,
-      content: 'This was one of the best learning   experiences I’ve ever had. The teachers  were friendly and gave me great advice. ',
+      content: 'This experiences I’ve ever had. The teachers  were friendly and gave me great advice. ',
       image: img1,
     },
     {
@@ -31,7 +31,7 @@ const Testimonial = () => {
 
   return (
     <div className="container mt-5">
-      <div className="row m-1 p-2">
+      <div className="row ">
         
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="col-md-4 mt-2">
@@ -45,7 +45,7 @@ const Testimonial = () => {
                 />
                 <h5 className="card-title">{testimonial.name}</h5>
                 <p className="card-text">{testimonial.content}</p>
-                <div className="rating">
+                <div className="rating mb-3">
                   {Array.from({ length: testimonial.rating }, (_, index) => (
                   
 <FontAwesomeIcon key={index} icon={faStar} color=" #FF8C00" />

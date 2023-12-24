@@ -1,15 +1,15 @@
 // src/data/danceClasses.js
-import img1 from '../images/friends-having-fun-dancing-while-out-city.jpg';
+import img1 from '../images/hip-hop-dancer.jpg';
 
 const danceClasses2 = [
 
     {
       id: 2,
-      className: 'Street Dancing',
-      description: 'Learn the art of ballroom dancing with our experienced instructors.',
-      startDate: '2023-01-11',
-      duration: '1 hour',
-      price: 20,
+      className: 'Hip pop',
+      description: 'Master the art of hip-pop dancing with our experienced instructors.',
+      startDate: '2023-02-15',
+      duration: '2 hour',
+      price: 50,
     img: img1,
     },
 

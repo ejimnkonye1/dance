@@ -26,9 +26,9 @@ const DanceClass = ({ danceClass, onRegisterClick }) => {
   return (
     <div className="card">
    
-      <div className="card-body">
+      <div className="card-body p-2">
       <img src={img} className="card-img-top" alt={className} />
-        <h5 className="card-title text-danger">{className}</h5>
+        <h5 className="card-title text-danger mt-2">{className}</h5>
         <p className="card-text">{description}</p>
         <p>Start Date: {startDate}</p>
         <p>Duration: {duration}</p>

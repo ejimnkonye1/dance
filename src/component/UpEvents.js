@@ -23,7 +23,7 @@ const Event = ({ event, onBuyTicketClick }) => {
   }, []);
   return (
     <div className="card">
-      <div className="card-body">
+      <div className="card-body mt-3 p-2">
         <h5 className="card-title text-danger">{eventName}</h5>
         <p>Date: {date}</p>
         <p>Location: {location}</p>
@@ -36,7 +36,7 @@ const Event = ({ event, onBuyTicketClick }) => {
           </div>
         </div>
       )}
-        <button className="btn btn-warning"
+        <button className="btn btn-warning mb-3 "
           type="button"
        
           id="liveAlertBtn"

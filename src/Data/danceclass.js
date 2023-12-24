@@ -4,7 +4,7 @@ import img1 from '../images/ballet-teacher-helping-ballerina-improve-her-posture
 const danceClasses = [
     {
       id: 1,
-      className: 'Classical Ballet',
+      className: 'Ballroom',
       description: 'Learn the art of ballroom dancing with our experienced instructors.',
       startDate: '2023-01-01',
       duration: '1 hour',

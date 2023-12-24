@@ -15,7 +15,7 @@ const Tic = () => {
               <div className="col-md-12">
                 <img src={img1} alt="" />
                 {events.map((event) => (
-                  <Event
+                  <Event className='mb-5'
                     key={event.id}
                     event={event}
                     onBuyTicketClick={() => console.log(`Bought a ticket for ${event.eventName}`)}
