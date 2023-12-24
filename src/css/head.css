@@ -1,0 +1,16 @@
+
+:root {
+    --dark-orange: #FF8C00;
+    --red: #FF0000;
+    --silver: #C0C0C0;
+  }
+  .navbar{
+    background-color: var() !important;
+    
+  }
+  .navbar-brand{
+    color: var(--dark-orange) !important;
+  }
+  .nav-link{
+    color: var(--dark-orange) !important;
+  }

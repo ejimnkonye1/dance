@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+:root {
+  --dark-orange: #FF8C00;
+  --red: #FF0000;
+  --silver: #C0C0C0;
+}
+
+body {
+  background-color: var(--silver);
+  color: var(--dark-orange);
+}
