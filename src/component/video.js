@@ -19,7 +19,7 @@ const Lander = () => {
         autoPlay // Add controls for play, pause, etc.
       />
             </div>
-            <Classdance />
+             <Classdance />
    <Testimonial />
  
    <Tic />
